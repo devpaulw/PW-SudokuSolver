@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObservableHashSet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SudokuBox.cs" />
     <Compile Include="Sudoku.cs" />
+    <Compile Include="SudokuHelper.cs" />
     <Compile Include="SudokuSolver.cs" />
   </ItemGroup>
   <ItemGroup>

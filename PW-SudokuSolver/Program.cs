@@ -10,7 +10,17 @@ namespace PW_SudokuSolver
     {
         static void Main(string[] args)
         {
-            SudokuBox b = new SudokuBox();
+            //Sudoku[] sudokus = new[]
+            //{
+
+            //}
+
+            Sudoku sudokuTest = SudokuHelper.GetSodokuSample1();
+            Console.WriteLine("Sudoku to solve\n" + sudokuTest);
+            SudokuSolver sudokuSolver = new SudokuSolver();
+            sudokuSolver.Solve(sudokuTest);
+            Console.WriteLine("\nSolved sudoku\n" + sudokuTest);
+            Console.ReadKey();
         }
     }
 }
